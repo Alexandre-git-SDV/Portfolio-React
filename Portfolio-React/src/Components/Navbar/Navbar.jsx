@@ -6,6 +6,13 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <img src={logo} alt="" />
+        <ul className="nav-menu">
+            <li>Accueil</li>
+            <li>À propos</li>
+            <li>Compétences</li>
+            <li>Expérience</li>
+            <li>Contact</li>
+        </ul>
     </div>
   )
 }
