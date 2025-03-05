@@ -50,7 +50,7 @@
 }
 
 .hero-connect:hover{
-    border: #ffffff;
+    border: 2px solid #ffffff;
     transform: scale(1.05);
 }
 
