@@ -17,8 +17,9 @@
     background: linear-gradient(267deg, #DA7c25 0.36%, #B923E1 102.06%);
     font-size: 22px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 .nav-connect:hover{
+    border: 2px solid #ffffff;
     transform: scale(1.05);
 }
