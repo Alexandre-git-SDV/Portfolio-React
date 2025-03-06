@@ -8,6 +8,9 @@
 
 .hero img{
     margin-top: 150px;
+    border: solid 4px #B923E1; /* Ajoute une bordure de 4px */
+    border-radius: 100%;
+    box-shadow: 0 0 100px #B923E1;
 
 }
 

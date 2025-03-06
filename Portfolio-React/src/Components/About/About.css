@@ -79,6 +79,7 @@
 }
 
 .about-achievement{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,21 +100,27 @@
 .about-achievement p{
     font-size: 24px;
     font-weight: 500;
+    border-radius: 30px; 
+    border: 4px solid linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
 }
 
 .about-skill:hover {
-    /* border: 4px dotted rgb(36, 135, 192); /* Augmente l'épaisseur du border 
-    padding: 10px; /* Augmente l'espace intérieur 
-    border-radius: 30px; */
+    padding: 15px; /* Augmente l'espace intérieur */
+    border: solid 4px #B923E1; /* Ajoute une bordure de 4px */
+    border-radius: 30px; 
     transform: scale(1.05);
     transition: 0.25s;
+    box-shadow: 0 0 15px #B923E1;
+    
 }
 
 .about-achievement:hover {
-    /*border: 4px dotted rgb(36, 135, 192); /* Augmente l'épaisseur du border
-    padding: 10px; /* Augmente l'espace intérieur 
-    border-radius: 30px;*/
-    transform: scale(1.12);
+    padding: 15px; /* Augmente l'espace intérieur */
+    border: solid 4px #B923E1; /* Ajoute une bordure de 4px */
+    border-radius: 30px; 
+    transform: scale(1.05);
     transition: 0.25s;
+    box-shadow: 0 0 15px #B923E1;
+    
 }
 
