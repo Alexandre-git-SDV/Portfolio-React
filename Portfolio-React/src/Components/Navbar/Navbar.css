@@ -22,4 +22,5 @@
 .nav-connect:hover{
     border: 2px solid #ffffff;
     transform: scale(1.05);
+    box-shadow: 0 0 10px #ffffff;
 }
