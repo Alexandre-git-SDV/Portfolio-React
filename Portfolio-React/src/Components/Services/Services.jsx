@@ -13,7 +13,7 @@ const Services = () => {
         </div>
         <div className="services-container">
             {Services_Data.map((service,index) => {
-                return <div key={index}className='services-format'>
+                return <div key={index}className='services-format'> {/* Ajout de la clé key pour avoir les Titre et info des composants */}
                     <h3>{service.s_no}</h3>
                     <h2>{service.s_name}</h2>
                     <p>{service.s_desc}</p>

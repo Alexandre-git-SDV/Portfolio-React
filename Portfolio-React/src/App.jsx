@@ -11,8 +11,11 @@ const App = () => {
       <Hero/>
       <About/>
       <Services/>
+      <MyWork/>
     </div>
   );
 }
 
 export default App;
+
+// Raccourcis VS Code pour commenter et décommenter : Ctrl + :
