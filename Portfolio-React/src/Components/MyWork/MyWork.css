@@ -1,0 +1,74 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.mywork-title{
+    position: relative;
+}
+
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.mywork-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    /* margin-bottom: 80px;  margin-bottom sert à décaler le bloc de 80px vers le bas */
+    /* padding: 10px; Augmente l'espace intérieur */
+}
+
+.mywork-container img{
+    box-sizing: border-box;
+    width: 420px;
+    height: 280px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover{
+    transform: scale(1.05);
+    transition: 0.25s;
+    border: 5px solid #4100a2;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #4100a2;
+    /* background-image: linear-gradient(45deg,#3f0028,#582300); */
+     
+}
+.services-showmore p{
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+}
+
+.services-showmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .services-format:hover{
+    border: solid 4px rgb(36, 135, 192); /* Borfdre solid en bleu de 4px 
+    border-radius: 30px; /* Arrondi les coins */
+    /* padding: 10px; Augmente l'espace intérieur 
+    transform: scale(1.05);
+    transition: 0.25s;
+    background-image: linear-gradient(45deg,#3f0028,#582300); 
+} */
