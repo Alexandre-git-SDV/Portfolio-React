@@ -1,13 +1,12 @@
 import React from 'react'
-import './Experience.css'
+import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import Services_Data from '../../assets/services_Data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
-const Experience = () => {
+const Services = () => {
   return (
-    <div>
-        <div className="services"></div>
+    <div className="services">
         <div className="services-title">
             <h1>Services</h1>
             <img src={theme_pattern} alt="" />
@@ -29,4 +28,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Services
