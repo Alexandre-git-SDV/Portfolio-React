@@ -5,7 +5,7 @@ import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 
-const Contact = () => {
+const Contact = () => { /* Contact component */
   return (
     <div id='contact' className="contact">
       <div className="contact-title">
