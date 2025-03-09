@@ -7,7 +7,7 @@ import call_icon from "../../assets/call_icon.svg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id='contact' className="contact">
       <div className="contact-title">
         <h1>Alexandre GOURAUD Contact</h1>
         <img src={theme_pattern} alt="" />
@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-details">
 
             <div className="contact-detail">
-              <img src={mail_icon} alt="" /> <p>alexandre.houraud@supdevinci-edu.fr</p>
+              <img src={mail_icon} alt="" /> <p>alexandre.gouraud@supdevinci-edu.fr</p>
             </div>
 
             <div className="contact-detail">
