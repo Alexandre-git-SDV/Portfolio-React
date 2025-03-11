@@ -13,7 +13,7 @@ git clone https://github.com/votre-utilisateur/Portfolio-React.git
 
 cd Portfolio-React
 
-    2 - Installez les dépendances
+    2 - Installez les dépendances (dans le dossier du projet)
 
 npm install
 
